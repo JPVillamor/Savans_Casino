@@ -34,12 +34,11 @@ Classes:
 		call()
 		raise()
 		fold()
-	Dealer
+	Deck
+		[however we choose to organize the cards]
 		shuffle()
 		deal()
 	Game
-		wakeUpTheDealer()
+		initDeck()
 		turn
 		pot
-	Deck
-		[however we choose to organize the cards]
